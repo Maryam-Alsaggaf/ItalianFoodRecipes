@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="63dp"
+        android:layout_height="29dp"
+        android:fontFamily="casual"
+        android:text="Risotto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="327dp"
+        android:layout_height="466dp"
+        android:fontFamily="casual"
+        android:text="Ingredients:\n
+3 cups of water\n
+2 and 1/3 cups of chicken broth\n
+Quarter cup of butter\n
+Half an onion, chopped\n
+rice cup\n
+Half a cup of cooking cream\n
+¼ cup grated parmesan cheese\n
+salt and pepper as needed\n
+Chopped parsley for garnish\n
+How to prepare\n
+Heat the water with the broth on a medium heat until it boils, reduce the heat and leave it on the fire.\n
+Melt 2 tablespoons of butter in a saucepan over a medium heat, add the onion and stir until it wilts.\n
+Add the rice and stir for two minutes, then add a third of a cup of the broth and water mixture, and stir until it is absorbed.\n
+Raise the heat of the fire and add another cup of broth, then leave the pot on the fire\n without covering it until all the liquids are absorbed.
+Repeat this step, adding a cup of broth at a time and waiting until\n it is absorbed until the broth is used up.
+Leave it on the fire for 25 minutes until it becomes creamy in texture.\n
+Add cream, cheese, salt, pepper and the rest of the butter, stir for two minutes.\n
+Garnish with parsley and serve.\n"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+</android.support.constraint.ConstraintLayout>

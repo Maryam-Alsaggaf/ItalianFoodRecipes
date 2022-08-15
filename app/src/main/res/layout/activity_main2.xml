@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Pizza"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="299dp"
+        android:layout_height="398dp"
+        android:fontFamily="casual"
+        android:text="How to make pizza dough:\n
+Ingredients:\n
+warm water cup\n
+3 cups white flour\n
+Two tablespoons of olive oil\n
+Teaspoon salt\n
+instant yeast sachet\n
+a teaspoon of sugar\n
+How to prepare:\n
+1- Put the instant yeast on the warm water and sugar, and dissolve them well.\n
+2- Mix the flour with salt and put them in a large bowl.\n
+3- Add the oil to the flour and salt.\n
+4- Add the water and yeast to the flour and mix well.\n
+5- Keep kneading and add a little water if necessary.\n
+6- Put the dough in a large bowl, cover it well, and leave it for an hour until it ferments.\n"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.658" />
+</android.support.constraint.ConstraintLayout>

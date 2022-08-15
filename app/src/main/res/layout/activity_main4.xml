@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="63dp"
+        android:layout_height="29dp"
+        android:fontFamily="casual"
+        android:text="Polenta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="273dp"
+        android:layout_height="349dp"
+        android:fontFamily="casual"
+        android:text="Ingredients\n
+- 1 cup cornmeal (polenta flour or yellow cornmeal)\n- 1 small spoon of butter\n- 3 cups of boiling water\n
+- 1 small spoonful of salt\n
+How to prepare\n
+In a bowl, mix the flour with the water and salt and mix them very well.\n
+We raise the pot on the fire while continuing to stir until cooked and thicken the texture.\n
+Remove from the fire and pour into a mold and leave until completely cooled and frozen.\n
+With a knife, cut as desired.\n
+In a greased non-stick skillet, grill polenta on both sides.\n
+Served with sauteed vegetables and grilled chicken.\n"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
